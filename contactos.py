@@ -19,6 +19,7 @@ class GestorContactos:
     def mostrar_contactos(self):
         for contacto in self.contactos:
             print(contacto)
+            
 
 def main():
         gestor = GestorContactos()
